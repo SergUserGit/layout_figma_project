@@ -167,6 +167,8 @@ p {
 
 .footer-user {
 
+  transition: color 350ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
   margin-left: 8.5px;
 
   color: #FFF;
@@ -175,6 +177,10 @@ p {
   font-weight: 500;
   line-height: 150%;
   font-family: 'Karla', sans-serif;
+}
+
+.footer-user:hover {
+  color: #7db58c;
 }
 
 .footer-ref {
