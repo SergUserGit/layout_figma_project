@@ -62,12 +62,19 @@ p {
 
 
 .nav-ref {
+
+  transition: color 350ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
   color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   font-family: 'Junge', cursive;
+}
+
+.nav-ref:hover {
+  color: #7db58c;
 }
 
 .hero {
