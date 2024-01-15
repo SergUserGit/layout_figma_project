@@ -217,23 +217,7 @@ p {
 
 @media screen and (min-width: 0px) and (max-width: 743px) {
   .hero-img {
-    width: 184px;
-    height: 175px;
     margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 744px) and (max-width: 1439px) {
-  .hero-img {
-    width: 181.959px;
-    height: 140.509px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hero-img {
-    width: 241px;
-    height: 175px;
   }
 }
 
