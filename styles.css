@@ -167,11 +167,28 @@ p {
 }
 
 .hero {
-
-  padding-top: 34.36px;
-  padding-bottom: 80.65px;
-
   background: #2C392D;
+}
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+  .hero {
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .hero {
+    padding-top: 16.89px;
+    padding-bottom: 110px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding-top: 34.36px;
+    padding-bottom: 80.65px;
+  }
 }
 
 .hero-title {
@@ -205,10 +222,25 @@ p {
 }
 
 .skills {
-
-  padding-bottom: 69.41px;
-
   background: #2C392D;
+}
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+  .skills {
+    padding-bottom: 32.5px;
+  }
+}
+
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .skills {
+    padding-bottom: 63.77px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .skills {
+    padding-bottom: 69.41px;
+  }
 }
 
 .hero-img {
@@ -364,12 +396,29 @@ p {
 }
 
 .footer {
-
-  padding-top: 24px;
-  padding-bottom: 14.5px;
-
   border: 2px solid #565050;
   background: #575F5A;
+}
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+  .footer {
+    padding-top: 35.15px;
+    padding-bottom: 30.69px;
+  }
+}
+
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .footer {
+    padding-top: 44.16px;
+    padding-bottom: 26.86px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 14.5px;
+  }
 }
 
 .footer-user {
