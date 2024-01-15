@@ -168,6 +168,7 @@ p {
 
 .hero {
   background: #2C392D;
+  position: relative;
 }
 
 @media screen and (min-width: 0px) and (max-width: 743px) {
@@ -516,7 +517,7 @@ p {
   top: 0;
   right: 0;
   left: 0;
-  transform: translate(37%, -512%);
+  transform: translate(25%, 50%);
 
   border-radius: 10px;
   border: 2px solid #a5bfb0;
@@ -528,6 +529,12 @@ p {
 
 .modal-menu.isclose {
   display: flex;
+}
+
+@media screen and (min-width: 744px) {
+  .modal-menu.isclose {
+    display: none;
+  }
 }
 
 .modal-close {
@@ -558,15 +565,6 @@ p {
   text-decoration-line: underline;
 }
 
-.modal-parent {
-  position: relative;
-}
-
-@media screen and (min-width: 744px) {
-  .modal-parent {
-    display: none;
-  }
-}
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .modal-menu {
